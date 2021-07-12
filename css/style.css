@@ -8,13 +8,16 @@ body {
 }
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
   width: 870px;
   height: 679px;
   background-color: #fff;
   padding: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 hr {
   border: 1px solid #d1d1d1;
@@ -74,4 +77,58 @@ hr {
   color: #562eff;
 }
 
-/* -----------latest courses----------- */
+/* -----------latest courses style----------- */
+.course-container-2 {
+  height: 362px;
+}
+.course-2nd-title {
+  margin-bottom: 0;
+  padding-bottom: 11px;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course-banner {
+  padding: 13px;
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+.course-banner img {
+  width: 224px;
+  height: 104px;
+  align-items: center;
+}
+.course-name {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.course-author {
+  color: #ed6b4f;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-info span {
+  padding-left: 10px;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.course-duration {
+  background-color: #f7cbd0;
+  color: #ff4a60;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 15px;
+}
