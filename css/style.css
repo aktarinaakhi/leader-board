@@ -5,7 +5,55 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
+  box-sizing: border-box;
 }
+header {
+  background-color: #562eff;
+
+  height: 94px;
+  padding: 0 285px;
+}
+
+.nav {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 51px;
+  width: 40px;
+  padding-right: 15px;
+}
+.logo-title {
+  color: #ffffff;
+  font-size: 24px;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+/* a:hover {
+  background: rgba(238, 13, 13, 0.75);
+} */
+
+/*----------- common styles start--------------------*/
 main {
   display: flex;
   flex-direction: column;
@@ -19,6 +67,8 @@ main {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+/* ----------------top player style-------------------- */
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 26px;
