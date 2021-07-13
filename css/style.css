@@ -19,6 +19,8 @@ header {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .logo {
@@ -36,7 +38,7 @@ header {
 }
 .navigation ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
   padding: 0;
