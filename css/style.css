@@ -16,11 +16,9 @@ header {
 }
 
 .nav {
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
-  text-align: center;
+  justify-content: space-around;
 }
 
 .logo {
@@ -38,13 +36,14 @@ header {
 }
 .navigation ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 .navigation li {
   list-style: none;
+  margin-left: 36px;
 }
 .navigation a {
   text-decoration: none;
